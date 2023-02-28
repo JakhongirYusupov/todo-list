@@ -1,1 +1,20 @@
-[{"id":1,"username":"jahon","email":"jahon@mail.com","password":"jahon"},{"id":2,"username":"john","email":"john@gmail.com","password":"john1"},{"id":3,"username":"bek","email":"bek@gmail.com","password":"bek2008"}]
+[
+  {
+    "id": 1,
+    "username": "jahon",
+    "email": "jahon@mail.com",
+    "password": "jahon"
+  },
+  {
+    "id": 2,
+    "username": "john",
+    "email": "john@gmail.com",
+    "password": "john1"
+  },
+  {
+    "id": 3,
+    "username": "bek",
+    "email": "bek@gmail.com",
+    "password": "bek2008"
+  }
+]

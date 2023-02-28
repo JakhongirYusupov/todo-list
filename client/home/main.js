@@ -39,8 +39,9 @@ const pushTodos = (todos) => {
       item.appendChild(checker);
       item.appendChild(span2);
       todoList.prepend(item)
+      return
     })
-  }
+  } else todoList.innerHTML = `<h3>404 Not Found</h3>`
 
 };
 
