@@ -5,7 +5,7 @@ const readFile = (filename) => {
 }
 
 const writeFile = (filename, data) => {
-  return fs.writeFileSync(`./module/${filename}`, JSON.stringify(data), null, 4);
+  return fs.writeFileSync(`./module/${filename}`, JSON.stringify(data));
 }
 
 module.exports = {

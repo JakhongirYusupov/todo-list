@@ -10,8 +10,9 @@
 </head>
 
 <body>
-  <form class="w-25 mx-auto"
+  <form class="w-25 mx-auto" id="form"
     style="padding: 20px; background-color: rgba(128, 128, 128, 0.152); border-radius: 5%; margin-top: 5%;">
+    <a href="http://localhost:5000/register">Go to Register</a>
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
       <input required type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control"
@@ -29,6 +30,7 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
+  <script src="./login.js"></script>
 </body>
 
 </html>
